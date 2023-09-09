@@ -33,4 +33,28 @@ span {
   body {
     font-family: 'Poppins', sans-serif;
   }
+  .btn-container {
+    display: flex;
+    gap: 10px; /* Adjust the gap as needed for spacing between buttons */
+  }
+  
+  .btn-spacing {
+    margin-right:  10 px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+/* Custom CSS for better responsiveness on small screens */
+@media (max-width: 576px) {
+    .btn-inline {
+      display: block;
+      margin-top: 10px; /* Add margin to separate elements vertically */
+      margin-bottom: 5px;
+    }
+  }
+/* Add this CSS to center the copyright statement */
+footer {
+    text-align: center;
+}
+
+  
   
